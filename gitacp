@@ -1,7 +1,11 @@
 #!/bin/bash
 
-read var1
+echo "ingrese los archivos que va a subir a github xd:"
+read -e var1
+git add "$var1"
 
-git add .
-git commit -m "$var1"
+echo "ingrese commit:"
+read var2
+git commit -m "$var2"
+
 git push
