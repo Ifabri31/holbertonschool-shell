@@ -1,2 +1,2 @@
-Project Shell, basics 
+Project Shell, basics
 
