@@ -1,2 +1,2 @@
 #!/bin/bash
-greep -norte root /etc/passwd
+greep root /etc/passwd
