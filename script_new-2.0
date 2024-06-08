@@ -2,4 +2,4 @@
 
 echo "Nombre del archivo:"
 read -e var1
-echo "#!/bin/bash" > "$var1"
+echo "#!/bin/bash" > "$var1" | chmod u+x "$var1"
